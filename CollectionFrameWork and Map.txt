@@ -1,0 +1,113 @@
+﻿Assignment Solutions
+
+
+1.What is the collection framework in Java?
+Ans : Collection framework is a combination of classes and interfaces.Which is used to store the data in the form of objects.The classes of framework are ArrayList,LinkList,vector,HashSet etc and interfaces like List,Queue,Set etc.
+
+
+2.What is the difference between ArrayList and LinkedList?
+Ans : There are many differences b/w ArrayList and LinkedList shown below the table →
+
+
+ArrayList
+	LinkedList
+	1.it needed a random memory location.
+	1.it doesn't need random memory location. 
+	2.ArrayList uses a dynamic Array.
+	2.LinkedList uses a DoublyLinked List.
+	3.its take less memory space only for data storing.
+	3.its need more memory as compared to ArrayList because it store next and previous node address. 
+	
+
+3.What is the difference between Iterator and ListIterator?
+Ans : The differences between Iterator and ListIterator is→
+
+
+Iterator → Iterator is a method of iterable interface,iterable interface is a parent interface of the collections hierarchy. This method is used to iterate over the collection in ascending order and print the data one by one .It has two more methods like HashNext() and next().
+
+
+ListIterator→ This method is applicable only for List classes .This method is used to iterate in reverse direction .It has  two methods: HasPrevious() and Previous().
+
+
+4.What is the difference between List and Set?
+Ans: Differences between List and  set is→
+
+
+
+
+	List
+	Set
+	1.
+	It preserves insertion order.
+	It may or may not preserve insertion order.
+	2.
+	It uses a doubly linked list to store next and previous node addresses.
+	It implements set interface.it uses hashing algorithm to store the data in the set.
+	3.
+	We can find the value with the help of list indexes.
+	Set can’t allow indexes references.
+	4.
+	The List interface contains a single legacy class which is a vector class.
+	Set interfaces do not have any legacy class.
+	
+
+
+
+5.What is the difference between Iterator and enumerator?
+Ans : There are many differences  b/w iterator and enumerator is —
+
+
+Iterator
+	enumerator
+	1.The iterator can traverse legacy and non-legacy elements.
+	But it can traverse only legacy elements only.
+	2.The iterator is fail-fast.
+	The enumerator is not fail-fast.
+	3.The iterator is slower than the enumerator.
+	The enumerator is faster than the iterator.
+	
+
+6.What is the difference between HashSet and TreeSet?
+Ans: 
+HashSet
+	TreeSet
+	1.its implements set interface.
+	It also implements a set interface.
+	2.it is an unordered collection of elements.
+	It is a sorted order of collection of elements.
+	3.HashSet is implemented using hashTable. 
+	TreeSet is implemented using a self balancing binary search tree.
+	4.hashSet has constant time complexity.for insertion, deletion and testing.
+	It takes logarithmic time complexity for insert ,delete and search.
+	
+
+7.What is the difference between Array and ArrayList?
+Ans : The differences b/w Array and ArrayList is -
+
+
+Array
+	ArrayList
+	1.Array creation is very easy as compared to ArrayList. 
+	ArrayList creation is difficult as compared to Array.
+	2. Size if fixed if once is initialized.
+	Size is variable according to elements insertion and deletion.
+	3.operation is faster than arrayList.
+	Slower than Array.
+	4.it has less methods as compared to ArrayList.
+	5.It has more methods as compared to Array.
+	
+
+8.What is a map in java?
+Ans : Map is a collection of key  and value pairs .It means each value has a unique  key and it can not be duplicated .
+
+
+9.What is the commonly used implementation of map in Java?
+Ans : The commonly used implementations of Map in Java are HashMap, TreeMap, LinkedHashMap, and ConcurrentHashMap.
+
+
+10.What is the difference between HashMap and TreeMap ?
+Ans : HashMap is an unordered collection that uses hashing to store the key-value pairs, while WreeMap is a sorted collection that stores the key-value pairs in a sorted order based on the natural order of the keys or a custom Comparator.
+
+
+11.How do you check if a key exists in a Map in Java?
+Ans : we can check if a key exists in a Map in Java using the containsKey() method or the get() methods Whe containsKey() method returns a boolean value indicating whether the Map contains the specified key, while the get() method returns the value associated with the specified key, or null if the key is not present in the Mapy
